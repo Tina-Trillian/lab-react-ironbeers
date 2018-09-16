@@ -1,5 +1,6 @@
 @import './base.scss';
 
+@import '../../../node_modules/bootstrap/scss/bootstrap';
 
 
     .image-container {
@@ -56,3 +57,23 @@
             height: 100%;
         }
     }
+
+    .card {
+        width: 400px;
+        border: none;
+        border-bottom: 1px solid grey;
+    }
+
+    .image-card-container {
+        img {
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+  

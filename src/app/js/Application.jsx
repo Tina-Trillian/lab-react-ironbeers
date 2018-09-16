@@ -16,9 +16,8 @@ class Application extends React.Component {
     return (
       <BrowserRouter>
         <div>
-          <Route exact path="/" component={Home} />
-          <Header />
           <Switch>
+            <Route exact path="/" component={Home} />
             <Route exact path="/beers" component={AllBeers} />
             <Route exact path="/random" component={Random} />
             <Route exact path="/new-beer" component={New} />
